@@ -1,0 +1,332 @@
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/inter-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/inter-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/inter-v12-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/inter-v12-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/inter-v12-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/inter-v12-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1220px;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.logo__link {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #192252;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.navbar__item-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #192252;
+    transition: all 0.5s linear;
+}
+
+.navbar__item-link:hover {
+    opacity: 0.5;
+}
+
+.header__btn {
+    background: #0E1734;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    padding: 14px 16px;
+    transition: all 0.5s linear;
+    cursor: pointer;
+}
+
+.header__btn:hover {
+    background-color: #ffffff;
+    color: #0E1734;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.hero__title {
+    max-width: 570px;
+}
+
+.hero__heading {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: #192252;
+    margin-bottom: 24px;
+}
+
+.hero__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #848FAC;
+    max-width: 400px;
+    margin-bottom: 32px;
+}
+
+.hero__btn {
+    background: #0E1734;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    padding: 16px 32px;
+    transition: all 0.5s linear;
+    cursor: pointer;
+}
+
+.hero__btn:hover {
+    background-color: #ffffff;
+    color: #0E1734;
+}
+
+.hero__img {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.hero__img img:nth-child(2n) {
+    margin-top: 150px;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+.intro__title {
+    max-width: 595px;
+}
+
+.intro__heading {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: #192252;
+}
+
+.intro__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #848FAC;
+    max-width: 550px;
+}
+
+.intro__text:nth-child(1n) {
+    margin-bottom: 16px;
+}
+
+.intro__btn {
+    background: #0E1734;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    padding: 16px 32px;
+    transition: all 0.5s linear;
+    cursor: pointer;
+}
+
+.intro__btn:hover {
+    background-color: #ffffff;
+    color: #0E1734;
+}
+
+.cabin {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabin__heading {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: #192252;
+}
+
+.cabin__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #848FAC;
+    max-width: 584px;
+}
+
+.food {
+    display: flex;
+    align-items: center;
+    gap: 250px;
+    padding-bottom: 80px;
+    margin-top: 32px;
+}
+
+.food__heading {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: #192252;
+}
+
+.food__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #848FAC;
+    max-width: 510px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rooms__heading {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #192252;
+    margin-bottom: 24px;
+}
+
+.rooms__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #848FAC;
+    max-width: 588px;
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+.rooms__btn {
+    background: #0E1734;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    padding: 16px 32px;
+    transition: all 0.5s linear;
+    cursor: pointer;
+    margin-bottom: 88px;
+}
+
+.rooms__btn:hover {
+    background-color: #ffffff;
+    color: #0E1734;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 80px;
+}
+
+.card__heading {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.card__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #848FAC;
+}
+
+.card__link {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #424F7B;
+}
+
+.card__img {
+    margin-left: 12px;
+}
+
+.select {
+    width: 588px;
+    height: 50px;
+    padding-right: 100px;
+}
+
+.option {
+    background: #FFFFFF;
+    border-radius: 4px;
+
+}
